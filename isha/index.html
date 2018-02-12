@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>IED Project Summary</title>
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:700|Source+Sans+Pro:300" rel="stylesheet">
+
+</head>
+<body>
+	<section class="hero">
+		<div class="centered">
+			<h1>SHADOW</h1>
+			<br>
+			<p class="lead">
+				<a href="#about">About</a>
+				<a href="#imple">Implementation</a>
+				<!-- <a href="#0">Code</a> -->
+				<a href="#media">Media</a>
+				<a href="#comm">Reflections</a>
+				<a href="poster.png" target="_blank">Poster</a>
+			 </p>
+		</div>
+	</section>
+	<section class="info">
+		<div class="content" id="about">
+			<h1>About</h1>
+			<p class="lead">
+				For our mini project we were required to create an interactive lamp from scratch. The objective of this project was to put everything we had learnt in class to practical use so that we could build a prototype which could actually be sold in the market. It was necessary for us to create something which was fully functional without any glitches and aesthetically good-looking to appeal to the customer. 
+			</p>	
+			<p class="lead">
+				We had to build it using arduino uno which is an open source micro&dash;controller.Some of the things that we were also required to incorporate in our project were a bluetooth module, a motor, different sensors and LEDs. We also connected our lamp to an app which we created  to make it more user-friendly.
+				
+			</p>
+		</div>
+		<div class="content" id="imple">
+			<h1>Implementation</h1>
+			<h2>Basic Idea</h2>
+			<p class="lead">
+				Our group decided to make a conventional lamp system where the base would contain all the machinery and the upper canopy contained LED lights that were connected in parallel. The canopy would be connected to the base through a pipe which contained 2 wires to power the LEDs.
+			</p>
+			<p class="lead">
+				The lamp would have the following features :
+				<ol>
+					<li>App controlled functionality.</li>
+					<li>Pivoted left and right movement using a motor which would be controlled by the app and a touch sensor.</li>
+					<li>Blinking of LEDs on sensing notifications received on the phone.</li>
+					<li>ON/OFF switching using an ultrasonic sensor.</li>
+					<li>Intensity of the LEDs controlled bu the distance of the hand from the lammp using LDR.</li>
+				</ol>
+			</p>
+			<h2>Materials Used</h2>
+			<p class="lead">
+				<div class="wrapper">
+					<div class="content--left">
+						<ol>
+							<li>Cardboard</li>
+							<li>Glue-gun</li>
+							<li>Wires</li>
+							<li>Breadboard</li>
+							<li>Arduino UNO</li>
+							<li>Bluetooth module</li>
+							<li>LDR</li>
+							<li>Touch sensor</li>
+						</ol>
+					</div>
+					<div class="content--right">
+						<ol start="9">
+							<li>Servo motor</li>
+							<li>Battery</li>
+							<li>Ice-cream sticks</li>
+							<li>Tape</li>
+							<li>Chart paper</li>
+							<li>Butter paper</li>
+							<li>Ultrasonic sensor</li>
+							<li>LEDs</li>
+						</ol>
+					</div>
+				</div>
+			</p>
+			<h2>Process</h2>
+			<p class="lead">
+			    We started by making the circuit by connecting the different components such as the bluetooth module, LDR, ultrasonic sensor etc. using wires on the breadboard so that it could be linked with the arduino. Codes were written for each component which would later be loaded on the arduino so that all the components could work using an arduino. 
+			</p>
+			<p class="lead">
+				We then moved on to make the structure. First the canopy was made which had a cardboard base and top and they were connected by 6 ice- cream sticks, each containing an LED which were connected in parallel. The canopy was then covered with butter paper to complete it. Next we made the base which was a rectangular box containing all the machinery which was powered by a 9V battery. The canopy and base were connected by a rectangular cardboard pipe which took wires from the LEDs to the circuit. Both the pipe and base were covered with chart paper to beautify the lamp.
+			</p>
+			<p class="lead">
+				Finally we made the app to control the lamp using MIT App Inventor 2. It connected our phone to the lamp via bluetooth. We made the app in such a way that the lamp could be switched on or off using it and aslo be moved. It was through this app that the lamp could also detect notifications on our phone.
+			</p>
+			<br>
+			<h2>Final Look</h2>
+			<p class="lead">
+				When we were finished, we had a functional lamp with all the features that we had planned to incorporate. We had a lamp which moved towards the user if needed to provide more light. The lamp also lit up if some books or any object was placed in front of it. It also informed us by blinking if we had received any notifications on our phone.
+			</p>
+		</div>
+<!-- 		<div class="content">
+			<h1>Code &amp; Files</h1>
+			<p class="lead">Arduino source file : <a href="#0">GitHub</a></p>
+			<p class="lead">MIT AppInventor : <a href="#0">Source</a></p>
+		</div> -->
+		<div class="content" id="media">
+			<h1>Photos &amp; Videos</h1>
+			<div class="grid">
+				<div class="row">
+					<div class="item one"></div>
+					<div class="item two"></div>
+					<div class="item three"></div>
+					<div class="item four"></div>
+				</div>
+				<div class="row">
+					<div class="item five"></div>
+					<div class="item six"></div>
+					<div class="item seven"></div>
+					<div class="item eight"></div>
+				</div>
+			</div>
+			<br><br>
+			<div class="video">
+				<div class="left">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9XhjYWI78Ik" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+			<br><br>
+				<div class="right"><p class="lead">
+					Above are given various photos of our lamp in action. There is also a video included to show all the features of this interactive lamp.
+				</p></div>
+			<br><br>
+		</div>
+		<div class="content" id="comm">
+			<h1>Reflections</h1>
+			<p class="lead">
+				Being first year college students, we could not acheive the finess we hoped for. We could not hide our sensors as properly as they shouls have been hidden. We had also hoped to make the LED blink different colours of light according to the social media platform our phone received notifications from. (example &dash; green for whatsapp and blue for messenger) We also originally wanted to change the height of our lamp by upward-downward movement using a stepper motor but due to lack of availability of the required materials in such a short period of time we could not acheive that.
+			</p>
+			<p class="lead">
+				Despite all the challenges we faced, this project taught me a lot and exposed me to a wide variety of new things. This was the first time that any of us had ever made such a machine using code and some other components. We tackled a lot of problems but as we figured out each problem, I learnt something new. I learnt the compexities faced while trying to link software to hardware. I also learnt how tedious it is to manually join LEDs is through wires hoping that no connection is weak. I also realized that it is important to use the correct material for every part so that every part can perfrom its task without the lamp falling apart. All in all it was a great experience which helped me put my theoretical knowledge to actual practical use. 
+			</p>
+		</div>
+	</section>
+	<br>
+		<footer>
+			<p class="credits">
+				Isha Goel,
+				<br>
+				 2017054, AG20
+			</p>
+		</footer>
+	</section>
+</body>
+</html>

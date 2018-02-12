@@ -1,0 +1,148 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	transition: all .35s ease-in-out;
+	padding: 0;
+}
+@font-face {
+	src: url(gt.ttf);
+	font-family: GT;
+}
+@font-face {
+	src: url(circular.ttf);
+	font-family: Circular;
+}
+html,
+body {
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: GT;
+}
+
+.left_data {
+	height: 100vh;
+	width: 30vw;
+	position: fixed;
+	background: #222;
+	display: table;
+}
+.left_data .centered{
+	display: table-cell;
+	vertical-align: middle;
+	padding-left: 70px;
+	/*text-align: center;*/
+}
+.left_data .centered h1{
+	font-size: 2.5rem;
+	font-family: Circular;
+	color: #fff;
+	/*border-bottom: 4px solid rgba(255,255,255,0.3);*/
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+hr {
+	height: 5px;
+	background: #fff;
+	outline: none;
+	margin-bottom: 10px;
+	opacity: 0.4;
+}
+.left_data .centered ul {
+	list-style-type: none;
+	font-size: 1.333333rem;
+}
+
+.left_data .centered ul li{
+	line-height: 2;
+}
+h1 {
+	font-family: Circular;
+	letter-spacing: -2px;
+}
+.left_data .centered ul li a{
+	color: #777;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.left_data .centered ul li a:hover{
+	color: #999;
+	border-bottom: 2px solid rgba(255,255,255,0.5);
+
+}
+.right_data {
+	float: right;
+	width: 70vw;
+	padding: 3rem 5rem;
+}
+
+.right_data h1 {
+	font-size: 3rem;
+}
+
+.right_data p {
+	font-size: 1.5rem;
+}
+
+.content {
+	margin-bottom: 50px;
+}
+
+footer {
+	float: right;
+	width: 70vw;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 2rem 5rem;
+}
+a {
+	color: #00adef;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(0,0,0, 0.1); 
+}
+.credits {
+	font-size: 1.2rem;
+	/*letter-spacing: 2px;*/
+}
+
+.grid {
+	display: table;
+	width: 100%;
+	height: 50vh;
+}
+.row {
+	display: table-row;
+	height: 100%;
+	width: 100%;
+	padding:5px; 
+}
+.item {
+	display: table-cell;
+	height: 30vh;
+	background-size: cover;
+	width: 50%;
+}
+
+.one {
+	background: url(one.jpg) center center no-repeat;
+	background-size: cover;
+}
+.two {
+	background: url(two.jpg) center center no-repeat ;
+	background-size: cover;
+}
+.three {
+	background: url(four.jpg) center center no-repeat ;
+	background-size: cover;
+
+}
+.four {
+	background: url(three.jpg) center center no-repeat ;
+	background-size: cover;
+
+}

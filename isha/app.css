@@ -1,0 +1,192 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	transition: all .35s ease-in-out;
+	padding: 0;
+}
+
+@font-face {
+	src: url(gt.ttf);
+	font-family: GT;
+}
+
+@font-face {
+	src: url(circular.ttf);
+	font-family: Circular;
+}
+
+html,
+body {
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: Source Sans Pro;
+	padding: 5rem 25rem;
+}
+
+h1 {
+	font-family: Old Standard TT;
+	font-weight: normal;
+}
+a {
+	font-family: Source Sans Pro;
+	color: #777;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: rgba();
+}
+.hero {
+	padding-bottom: 10px;
+}
+.hero h1 {
+	font-size: 4rem;
+}
+.hero .lead {
+	word-spacing: 15px;
+	line-height: 1.333333333;
+	font-size: 1.5rem;
+	margin-left: 6px;
+}
+.hero .lead a {
+	padding: 3px 5px;
+}
+.hero .lead a{
+	background: #2ecc71;
+	color: #fff;
+	position: relative;
+	box-shadow: -5px 5px 0 rgba(0,0,0,0.09);
+	top: -5px;
+}
+.hero .lead a:hover {
+	top: 0px;
+	box-shadow: -2px 2px 0 rgba(0,0,0,0.09);
+
+}
+
+.content {
+	margin: 30px 0;
+}
+.content h1 {
+	color: #222;
+	font-size: 2.5rem;
+	margin-bottom: 10px;
+}
+.content p.lead {
+	color: #666;
+	line-height: 1.43333333;
+	font-size: 1.3rem;
+}
+
+.grid {
+	display: table;
+	width: 100%;
+	height: 30vh;
+}
+.table {
+	display: table;
+	width: 100%;
+	height: 30vh;
+
+}
+.row {
+	display: table-row;
+	height: 100%;
+	width: 100%;
+	padding:5px; 
+}
+.col {
+	display: table-column;
+	height: 100%;
+	width: 50%;
+}
+.item {
+	display: table-cell;
+	height: 30vh;
+	background-size: cover;
+	width: 25%;
+}
+.item:hover {
+	height: 50vh;
+	width: 50%;
+}
+.wrapper {
+	width: 100%;
+}
+.content--left {
+	width: 50%;
+	float: left;
+}
+.content--right {
+	width: 50%;
+	float: right;
+}
+
+.one {
+	background: url(IMG_20180211_121138.jpg) center center no-repeat;
+	background-size: cover;
+}
+.two {
+	background: url(Screenshot1.png) center center no-repeat;
+	background-size: cover;
+}
+.three {
+	background: url(Screenshot3.png) center center no-repeat;
+	background-size: cover;
+}
+.four {
+	background: url(Screenshot2.png) center center no-repeat;
+	background-size: cover;
+}
+.five {
+	background: url(IMG_20180211_121059.jpg) center center no-repeat;
+	background-size: cover;
+}
+.six {
+	background: url(Screenshot4.png) center center no-repeat;
+	background-size: cover;
+}
+.seven {
+	background: url(Screenshot5.png) center center no-repeat;
+	background-size: cover;
+}
+.eight {
+	background: url(Screenshot6.png) center center no-repeat;
+	background-size: cover;
+}
+h2 {
+	font-size: 1.7rem;
+	font-family: Old Standard TT;
+	opacity: 0.7;
+	margin-bottom: 10px;
+	font-weight: normal;
+}
+ol {
+	color: #666;
+	margin: 20px 20px;
+
+	line-height: 1.53333333;
+	font-size: 1.3rem;
+}
+
+.list {
+	color: #666;
+	margin: 20px 20px;
+	line-height: 1.53333333;
+	font-size: 1.3rem;
+}
+.right {
+	text-align: center;
+}
+.credits {
+	font-size: 1.4rem;
+}
+
+.video {
+	width: 100%;
+	text-align: center;
+}
